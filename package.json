@@ -1,0 +1,23 @@
+{
+  "name": "drums",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AJtwiss01/html-css-js-drumkit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AJtwiss01/html-css-js-drumkit/issues"
+  },
+  "homepage": "https://github.com/AJtwiss01/html-css-js-drumkit#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2"
+  }
+}

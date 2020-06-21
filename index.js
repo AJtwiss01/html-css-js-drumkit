@@ -2,7 +2,7 @@ const handleClickBinded = (e) => {
   console.log("handle click ran ");
   console.log(this);
 
-  let allButtons = document.querySelectorAll("button");
+  let allButtons = document.querySelectorAll(".drum");
   document.addEventListener("click", (e) => {
     console.log(` clicked ${e.classList}`);
   });
