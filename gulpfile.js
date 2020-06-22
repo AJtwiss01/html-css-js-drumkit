@@ -9,7 +9,7 @@ var userName = "ajtwiss"; // set your macOS userName here
 var paths = {
   php: ["*.php", "**/*.php"],
   html: ["*.html", "**/*.html"],
-  scripts: ["js/*.js"],
+  scripts: ["*.js"],
   styles: ["*.css", "css/*.css"],
 };
 

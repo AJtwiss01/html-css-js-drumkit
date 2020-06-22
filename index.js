@@ -1,15 +1,12 @@
 const handleClickBinded = (e) => {
-  console.log("handle click ran ");
-  console.log(this);
-
   let allButtons = document.querySelectorAll(".drum");
-  document.addEventListener("click", (e) => {
-    console.log(` clicked ${e.classList}`);
-  });
   console.log(allButtons);
-
   for (let i = 0; i < allButtons.length; i++) {
-    console.log(allButtons[i].classList[0]);
+    allButtons[i].addEventListener("click", (e) => {
+      console.log(` clicked ${e.target.classList[0]}`);
+      var audio = new Audio("./sounds/tom-1.mp3");
+      audio.play();
+    });
   }
 };
 
