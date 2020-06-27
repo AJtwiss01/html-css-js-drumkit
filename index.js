@@ -2,6 +2,7 @@ const andimatiionFunction = (key) => {
   console.log("key coming in " + key);
   linkedButton = document.querySelector(`.${key}`);
   linkedButton.classList.add("pressed");
+
   setTimeout(() => {
     linkedButton.classList.remove("pressed");
   }, 1000);
@@ -49,16 +50,16 @@ const handleClickBinded = (e) => {
           break;
         case "k":
           // code block
-          let KeyK = new Audio(`./sounds/kick-bassk.mp3`);
+          let KeyK = new Audio(`./sounds/kick-bass.mp3`);
           KeyK.play();
           andimatiionFunction("k");
 
           break;
-        case "w":
+        case "l":
           // code block
           let KeyL = new Audio(`./sounds/snare.mp3`);
           KeyL.play();
-          andimatiionFunction("w");
+          andimatiionFunction("l");
           break;
         default:
           console.log("different key was pressed");
